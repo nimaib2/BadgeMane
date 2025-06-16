@@ -1,3 +1,4 @@
+import os
 from twilio.rest import Client
 
 account_sid = os.getenv('ACCOUNT_SID')
